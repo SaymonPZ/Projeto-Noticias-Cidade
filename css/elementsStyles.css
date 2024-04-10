@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #ffffff url(../images/fundo.png) repeat-x;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 0.8em;
+    padding: 3px;
+    margin: 5px 0;
+}

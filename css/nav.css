@@ -1,0 +1,65 @@
+#noticiascidade{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#header{
+    height: 230px;
+    background: url(../images/detalhe-topo.png) no-repeat right top;
+}
+
+#logo{
+    padding-top: 20px;
+}
+
+#menu{
+    display: block;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #b1002f;
+    float: left;
+}
+
+#menu ul li{
+    float: left;
+}
+
+#menu a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.4em;
+    line-height: 1.5em;
+    color: white;
+    background: url(../images/divisor.png) no-repeat left center;
+} 
+
+#menu ul li a:hover{
+    color: #69001d;
+}
+
+#menu ul .first a{
+    background: none;
+}
+
+body.home #menu a#home,
+body.brasil #menu a#brasil,
+body.internacional #menu a#internacional,
+body.economia #menu a#economia,
+body.saude #menu a#saude,
+body.ciencia #menu a#ciencia,
+body.fotos #menu a#fotos
+{
+    color: white;
+    background: #fa2743;
+    cursor: text;
+}
+
+#internacional, #economia,  #saude, #ciencia{
+    cursor: not-allowed;
+}

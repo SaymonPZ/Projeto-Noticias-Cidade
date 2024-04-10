@@ -1,94 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #ffffff url(../images/fundo.png) repeat-x;
-}
-
-ul{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-h3{
-    text-transform: uppercase;
-    display: inline-block;
-    font-size: 0.8em;
-    padding: 3px;
-    margin: 5px 0;
-}
-
-
-#noticiascidade{
-    width: 750px;
-    margin: 0 auto;
-}
-
-#header{
-    height: 230px;
-    background: url(../images/detalhe-topo.png) no-repeat right top;
-}
-
-#logo{
-    padding-top: 20px;
-}
-
-#menu{
-    display: block;
-    align-items: center;
-    padding-top: 30px;
-}
-
-#menu ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background: #b1002f;
-    float: left;
-}
-
-#menu ul li{
-    float: left;
-}
-
-#menu a{
-    font-size: 0.9em;
-    display: block;
-    padding: 0.5em 1.4em;
-    line-height: 1.5em;
-    color: white;
-    background: url(../images/divisor.png) no-repeat left center;
-} 
-
-#menu ul li a:hover{
-    color: #69001d;
-}
-
-#menu ul .first a{
-    background: none;
-}
-
-body.home #menu a#home,
-body.brasil #menu a#brasil,
-body.internacional #menu a#internacional,
-body.economia #menu a#economia,
-body.saude #menu a#saude,
-body.ciencia #menu a#ciencia,
-body.fotos #menu a#fotos
-{
-    color: white;
-    background: #fa2743;
-    cursor: text;
-}
-
-#internacional, #economia,  #saude, #ciencia{
-    cursor: not-allowed;
-}
-
 #main{
     background: #f5f5f5;
     margin-top: 20px;
@@ -169,13 +78,6 @@ body.fotos #menu a#fotos
 .img-principal{
     border: 2px solid #c9c9c9;
     width: 98%;
-
-}
-
-#destaque h3{
-    background: #69001d;
-    font-size: 1em;
-    color: white;
 }
 
 
