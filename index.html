@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home">
+    <div id="noticiascidade">
+        <div id="header">
+            <div id="logo">
+                <img src="images/logo.png">
+            </div>
+            <div id="menu">
+                <ul>
+                    <li class="first"><a id="home" href="index.html">Home</a></li>
+                    <li><a id="brasil" href="brasil.html">Brasil</a></li>
+                    <li><a id="internacional" href="">Internacional</a></li>
+                    <li><a id="economia" href="">Economia</a></li>
+                    <li><a id="saude" href="">Saúde</a></li>
+                    <li><a id="ciencia" href="">Ciência</a></li>
+                    <li><a id="fotos" href="fotos.html">Fotos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div id="primario">
+                <div class="caixa">
+                    <h2>Destaques!</h2>
+                    <div id="destaque">
+                        <div class="caixa-conteudo">
+                            <h3>Nova legislação</h3>
+                            <img class="img-principal" src="images/taxi.jpg" width="100%">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. .</p>
+                            <a href="">Leia mais</a>
+                        </div>
+                        <div class="caixa-conteudo">
+                            <h3>Aumento do preço!</h3>
+                            <img class="img-principal" src="images/mundo.jpg" width="100%">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate eaque ex suscipit quas autem..</p>
+                            <a href="">Leia mais</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="secundario">
+                <div class="caixa">
+                    <h2>Ultimas entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Edson Ferreira | Cirurgião</h3>
+                        <img class="img-principal" src="images/doutor.jpg" width="100%">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, perferendis excepturi.</p>
+                        <a href="">Leia mais</a>
+                    </div>
+                    <div class="caixa-conteudo">
+                        <h3>Saymon | Programador</h3>
+                        <img class="img-principal" src="images/tecnologia.jpg" width="100%">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iusto suscipit asperiores.</p>
+                        <a href="">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            <div id="lateralbar">
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="">José</a></li>
+                            <li><a href="">Tosé</a></li>
+                            <li><a href="">André</a></li>
+                            <li><a href="">Saymon</a></li>
+                            <li><a href="">Robson</a></li>
+                            <li><a href="">Everton</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form action="">
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" placeholder="E-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  id="footer-conteiner" style="clear:both">
+        <div id="footer">&copy; Copyright 2002-2024 | Notícia cidade | projeto do curso de WEB com Jamilton Damasceno | <br> Saymon de E. Inácio</div>
+    </div>
+
+    <script>
+        const linksNotFound = document.querySelectorAll("#internacional, #economia, #saude, #ciencia");
+
+        linksNotFound.forEach((element) => {
+            element.addEventListener("click", (event) => {
+                event.preventDefault();
+                alert("Essa página não esta disponivel. Páginas navegaveis: home, Brasil e Fotos.");
+            });
+        });
+    </script>
+</body>
+</html>
