@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #ffffff url(../images/fundo.png) repeat-x;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 0.8em;
+    padding: 3px;
+    margin: 5px 0;
+}
+
+
+#noticiascidade{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#header{
+    height: 230px;
+    background: url(../images/detalhe-topo.png) no-repeat right top;
+}
+
+#logo{
+    padding-top: 20px;
+}
+
+#menu{
+    display: block;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #b1002f;
+    float: left;
+}
+
+#menu ul li{
+    float: left;
+}
+
+#menu a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.4em;
+    line-height: 1.5em;
+    color: white;
+    background: url(../images/divisor.png) no-repeat left center;
+} 
+
+#menu ul li a:hover{
+    color: #69001d;
+}
+
+#menu ul .first a{
+    background: none;
+}
+
+body.home #menu a#home,
+body.brasil #menu a#brasil,
+body.internacional #menu a#internacional,
+body.economia #menu a#economia,
+body.saude #menu a#saude,
+body.ciencia #menu a#ciencia,
+body.fotos #menu a#fotos
+{
+    color: white;
+    background: #fa2743;
+    cursor: text;
+}
+
+#internacional, #economia,  #saude, #ciencia{
+    cursor: not-allowed;
+}
+
+#main{
+    background: #f5f5f5;
+    margin-top: 20px;
+}
+
+#noticiascidade h3{
+    background: #294c71;
+    color: white;
+}
+
+#lateralbar{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+.caixa{
+    padding: 5px;
+    margin-bottom: 5px;
+    background: #f3f3f3 url(../images/fundo-caixa.png) repeat;
+}
+
+.caixa h2{
+    background: #004B87;
+    color: white;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.caixa-conteudo{
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lateralbar ul a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    border-top: 1px solid #f3f3f3;
+}
+#lateralbar ul a:hover{
+    color: #a1a1a1;
+    background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
+    padding-left: 25px;
+}
+
+#lateralbar label{
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+#lateralbar input{
+    font-size: 0.7em;
+    background: #fff;
+    padding: 5px;
+    width: 125px;
+    border: #c9c9c9 1px solid;
+    margin: 5px 0;
+}
+#lateralbar input.submit{
+    width: 80px;
+    background: #b10333;
+    color: white;
+    border: 2px solid #870529;
+}
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+.img-principal{
+    border: 2px solid #c9c9c9;
+    width: 98%;
+
+}
+
+#destaque h3{
+    background: #69001d;
+    font-size: 1em;
+    color: white;
+}
+
+
+#duas-colunas #primario{
+    background: red;
+    width: 555px;
+    margin: 0 0 20px 195px;
+}
+#uma-coluna #primario{
+    background: red;
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 0;
+}
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+
+#footer-conteiner{
+    background: #2b6697;
+    padding: 20px;
+}
+
+#footer{
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+}
