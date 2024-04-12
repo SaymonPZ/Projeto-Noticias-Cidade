@@ -1,38 +1,44 @@
+/** configs gerais**/
+
 #main{
     background: #f5f5f5;
     margin-top: 20px;
 }
-
 #noticiascidade h3{
     background: #294c71;
     color: white;
 }
-
-#lateralbar{
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
+.img-principal{
+    border: 2px solid #c9c9c9;
+    width: 98%;
 }
+/**config padrão das caixas de contenido**/
 
 .caixa{
     padding: 5px;
     margin-bottom: 5px;
     background: #f3f3f3 url(../images/fundo-caixa.png) repeat;
 }
-
 .caixa h2{
     background: #004B87;
     color: white;
     padding: 5px;
     font-size: 1.2em;
 }
-
 .caixa-conteudo{
     background: white;
     padding: 5px;
     margin-top: 5px;
 }
 
+/** config da barra lateral**/
+
+
+#lateralbar{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
 #lateralbar ul a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
@@ -47,7 +53,6 @@
     background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
     padding-left: 25px;
 }
-
 #lateralbar label{
     display: block;
     cursor: pointer;
@@ -69,17 +74,7 @@
     border: 2px solid #870529;
 }
 
-#primario{
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 195px;
-}
-
-.img-principal{
-    border: 2px solid #c9c9c9;
-    width: 98%;
-}
-
+/** config da pagina (exibe quantas colunas) (nenhuma exibe 3)**/
 
 #duas-colunas #primario{
     background: red;
@@ -92,6 +87,18 @@
     float: left;
     margin: 0 0 20px 0;
 }
+
+/** configs noticiais principais**/
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+
+/** configs conteudo secundario**/
+
 #secundario{
     width: 270px;
     float: left;
@@ -99,11 +106,11 @@
 }
 
 
+/** configs rodapé**/
 #footer-conteiner{
     background: #2b6697;
     padding: 20px;
 }
-
 #footer{
     width: 750px;
     margin: 0 auto;
