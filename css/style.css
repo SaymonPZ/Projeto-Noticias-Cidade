@@ -12,6 +12,8 @@ h3{
     border: 2px solid #c9c9c9;
     width: 98%;
 }
+
+
 /** configs das caixas de conteudo**/
 
 .caixa{
@@ -95,28 +97,47 @@ h3{
     margin: 0 0 20px 195px;
 }
 /** configs conteudo princial + coluna de links**/
-.caixa-links{
-    background: #f5f5f5;
+.caixa-links ul{
+    background: white;
+    margin-top: -5px;
+}
+.caixa-links li{
+    border-bottom: 2px solid #e0e0e0;
+}
+.caixa-links li.ultimo-item{
+    border: none;
+}
+.caixa-links a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.caixa-links a::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.caixa-links .caixa-conteudo{
-    padding: 7px;
-    border-bottom: 2px solid #adadad;
-    margin: 0;
+.caixa-links a div{
+    margin-left: 10px;
 }
+
 .caixa-links img{
-    width: 80px;
+    width: 90px;
     float: left;
+    padding: 5px;
+    height: 100%;
 }
 
 .caixa-links h3{
+    display:block;
     background: #e6d264;
     color: #0e0e0e;
-    font-size: 17px;
-    padding-left: 20px;
+    font-size: 13px;
 }
 .caixa-links p{
     font-size: 12px;
+    width: auto;
 }
 
 /** configs conteudo secundario**/
