@@ -5,7 +5,7 @@
 }
 
 h3{
-    background: #294c71;
+    background:#004B87;
     color: white;
 }
 .img-principal{
@@ -96,7 +96,14 @@ h3{
     float: left;
     margin: 0 0 20px 195px;
 }
+
 /** configs conteudo princial + coluna de links**/
+.caixa-links{
+    padding: 5px;
+    margin-bottom: 5px;
+    background: #f3f3f3 url(../images/fundo-caixa.png) repeat;
+}
+
 .caixa-links ul{
     background: white;
     margin-top: -5px;
@@ -112,6 +119,9 @@ h3{
     display: flex;
     align-items: center;
 }
+.caixa-links a:hover{
+    background: #e7e7e7;
+}
 .caixa-links a::after{
     content: "";
     display: table;
@@ -123,13 +133,13 @@ h3{
 }
 
 .caixa-links img{
-    width: 90px;
+    width: 120px;
     float: left;
-    padding: 5px;
     height: 100%;
+    border-radius: 0 20% 20% 0;
 }
 
-.caixa-links h3{
+#main .caixa-links h3{
     display:block;
     background: #e6d264;
     color: #0e0e0e;
@@ -138,6 +148,7 @@ h3{
 .caixa-links p{
     font-size: 12px;
     width: auto;
+    margin-bottom: 10px;
 }
 
 /** configs conteudo secundario**/
@@ -146,6 +157,7 @@ h3{
     float: left;
     margin: 0 0 20px 15px;
 }
+
 /** configs rodapé**/
 #footer-conteiner{
     background: #2b6697;
