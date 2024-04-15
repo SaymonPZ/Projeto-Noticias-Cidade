@@ -79,12 +79,10 @@ h3{
 
 /** configs numero de colunas (se nenhum, padrão 3 colunas)**/
 #duas-colunas #primario{
-    background: red;
     width: 555px;
     margin: 0 0 20px 195px;
 }
 #uma-coluna #primario{
-    background: red;
     width: 750px;
     float: left;
     margin: 0 0 20px 0;
