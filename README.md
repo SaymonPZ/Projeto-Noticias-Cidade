@@ -1,6 +1,6 @@
-## Projeto com base no curso de Desenvolvimento Web do professor Jamilton Damasceno.
+## Noticias Cidade | Projeto com base no curso de Desenvolvimento Web do professor Jamilton Damasceno.
 
-### Caracteristicas:
+### Características:
 - Tecnologias em uso: HTML, Css e Javascript.
 - Layout: O projeto visa um layout que seja abrangido por grande parte dos monitores desktops, mas não é resposivo e pode ocasionar problemas com visualização em aparelhos móveis.
 
